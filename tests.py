@@ -1,12 +1,12 @@
 """Tests for the service discovery API"""
 import unittest
-import consul
+import consul_sd
 
 
 class consulTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.service = consul.Client()
+        self.service = consul_sd.Client()
 
     def tearDown(self):
         pass

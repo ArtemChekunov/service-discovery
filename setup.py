@@ -3,15 +3,15 @@
 from setuptools import setup
 
 setup(
-    name='consul-service-discovery',
-    version='0.1.2',
-    author='Javier Cacheiro',
-    author_email='javier.cacheiro@gmail.com',
-    url='https://github.com/javicacheiro/consul-service-discovery',
+    name='consul-sd',
+    version='1.0.0',
+    author='Javier Cacheiro, Artem Chekunov',
+    author_email='artem.v.cherkunov@gmail.com',
+    url='https://github.com/ArtemChekunov/service-discovery',
     license='MIT',
     description='Python client for Consul Service Discovery API',
     long_description=open('README.rst').read(),
-    py_modules=['consul'],
+    py_modules=['consul_sd'],
     install_requires=['requests'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
